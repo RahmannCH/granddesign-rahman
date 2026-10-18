@@ -308,14 +308,14 @@ h1, h2, h3, h4 {
   inset: 12px -12px -12px 12px;
   border: 1px solid var(--gold);
   content: '';
-  border-radius: 50%;
+  border-radius: var(--radius-sm);
 }
 
 .cover-art-crop {
   width: 100%;
   aspect-ratio: 1 / 1;
   overflow: hidden;
-  border-radius: 50%;
+  border-radius: var(--radius-sm);
   background: var(--ink);
   box-shadow: var(--shadow-card);
 }
@@ -326,7 +326,7 @@ h1, h2, h3, h4 {
   height: auto;
   aspect-ratio: 1 / 1;
   object-fit: contain;
-  padding: 6%;
+  padding: 0;
   background: var(--ink);
 }
 
